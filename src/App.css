@@ -1,0 +1,74 @@
+:root {
+    --color-primary: #FF6B21;
+    --color-primary--lighter: #FFC0A1;
+    --color-text-prim: #121212;
+    --color-title: #333333;
+    --color-placeholder: #666;
+    
+    --color-cyan: #2D9CDB;
+    --color-cyan--lighter: #C5D3DB;
+
+    --size-central: 46.63vw;
+
+    --shadow-main-block: 0px 43px 68px rgba(0, 0, 0, 0.1), 0px 9.60461px 15.1887px rgba(0, 0, 0, 0.0596107), 0px 2.85954px 4.52207px rgba(0, 0, 0, 0.0403893);
+
+    --brad: 16px;
+
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 23.5%;
+}
+.sidebar--right {
+    margin-left: 30px;
+    padding: 23px 29px;
+}
+.middle-section {
+    width: var(--size-central);
+    width: 100%;
+    display: inline-block;
+}
+
+.section-wrap {
+    border-radius: var(--brad);
+    box-shadow: var(--shadow-main-block);
+}
+.section-wrap--middle {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.main-tasklist {
+    margin-bottom: 30px;
+    padding: 20px 30px;
+}
+
+
+
+.tasklist-wrap {
+    max-height: 82vh;
+    overflow: auto;
+} 
+.tasklist-header {
+    padding: 20px 33px;
+    background-color: var(--color-cyan);
+    color: rgb(255, 255, 255);
+    border-radius: var(--brad) var(--brad) 0 0;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
